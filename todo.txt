@@ -1,1 +1,1 @@
-1. Learn several lessons for Git
+1. Learn several chapters for Git
