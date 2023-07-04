@@ -52,9 +52,9 @@ ls -la
 4. touch readme.md $$ notepad readme.md
 5. git add ~/new-project/.
 6. git commit -m "my first project"
-7.ls -la .ssh /# if not keys to do,else not create ssh keys
-8.ssh-keygen -t ed25519 "emal"
-9.clip < ~\.ssh\id25519.pub /# copy copy in memnory PC
+7. ls -la .ssh # if not keys to do,else not create ssh keys
+8. ssh-keygen -t ed25519 "emal"
+9. clip < ~\.ssh\id25519.pub # copy copy in memnory PC
 10. Account github -> new ssh key-> in field key-past copy key
 11. ssh -T git@github.com
 12.git remote add origin git@github.com:%account name%/new-project.git
