@@ -68,3 +68,5 @@ ls -la
 1. Hash commit is a otpechatok file with sha-1 
 2. command git log -predstavlenie all commits
 3. command git log --oneline  predstavlenie all commits in small version
+4. HEAD - ykazatel na posledniy commit i mojno na pryamyju obrshatsya k nemy
+Lejit v papke .git i ssylaetsya na dir refs(vnytri nee ssylka refs/heads/master v kotoryju zapis hash poslednego commit) 
