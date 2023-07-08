@@ -74,7 +74,7 @@ Lejit v papke .git i ssylaetsya na dir refs(vnytri nee ssylka refs/heads/master 
 ## Diagram Lifecircle  files commits
 
 ```mermaid
-flowchart TD
+flowchart TD;
     A[Create file(untracked)] --> B[git add(trucked-staged)];
     B --> C{modified};
     C --Yes--> D[unstaugged];
