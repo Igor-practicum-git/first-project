@@ -64,9 +64,22 @@ ls -la
 15. git push -u origin master
 
 ```
-#Practic work 2 
+##Practic work 2 
 1. Hash commit is a otpechatok file with sha-1 
 2. command git log -predstavlenie all commits
 3. command git log --oneline  predstavlenie all commits in small version
 4. HEAD - ykazatel na posledniy commit i mojno na pryamyju obrshatsya k nemy
-Lejit v papke .git i ssylaetsya na dir refs(vnytri nee ssylka refs/heads/master v kotoryju zapis hash poslednego commit) 
+Lejit v papke .git i ssylaetsya na dir refs(vnytri nee ssylka refs/heads/master v kotoryju zapis hash poslednego commit)
+
+## Diagram Lifecircle  files commits
+
+```Mermaid
+Flowchart TD
+    A[Create file(untracked)] --> B[git add(trucked-staged)];
+    B --> C{modified};
+    C --Yes--> D[unstaugged];
+    C --No--> E[goto commit];
+    E --> F[git push(send to github repo)];
+    D --> G[git add file];
+    G --> B;
+```
